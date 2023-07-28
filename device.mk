@@ -25,7 +25,8 @@ TARGET_SCREEN_WIDTH := 1600
 # Camera
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
-    libmegface
+    libmegface \
+    libpiex_shim
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
