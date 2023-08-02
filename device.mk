@@ -39,5 +39,11 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Tablet
+PRODUCT_CHARACTERISTICS := tablet
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/nabu/nabu-vendor.mk)
