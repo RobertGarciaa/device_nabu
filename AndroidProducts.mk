@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nabu.mk
+    $(LOCAL_DIR)/aosp_nabu.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nabu-user \
-    lineage_nabu-userdebug \
-    lineage_nabu-eng
+    aosp_nabu-user \
+    aosp_nabu-userdebug \
+    aosp_nabu-eng
